@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/head.ejs') %>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+</style>
+<body>
+    <button><a href="/bed">Back to Homepage</a></button>
+    <div class="showContainer">
+        <h2 class="about">
+            <%= Bed.about%>
+        </h2>
+        <h2>
+            <img class ="home" src=<%= Bed.img %>>
+        </h2>
+        <h2>
+            Location: <%= Bed.location%>
+        </h2>
+        <h2>
+            Cost: <%= Bed.cost%>
+        </h2>
+        <h2 class="linkRoute">
+           <a href=<%= Bed.link%>> Link to site </a>
+        </h2>
+        <h2 class="links"><button><a href="/bed/<%=Bed.id%>/edit">EDIT</a></button></h2>
+        <h2 class="links">
+            <form action="/bed/<%= Bed.id %>?_method=DELETE" method="post">
+                <input type="submit" value="DELETE"  />
+        </h2>
+    </div>
+    <div id="map">
+
+        <script>  
+
+            function initMap() {
+                let lat = "<%= Bed.lat%>"
+                let lng = "<%= Bed.lng%>"
+                console.log(lat)
+                console.log(lng)
+                let location = {lat: parseInt(lat), lng: parseInt(lng)};
+                let map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 16, 
+                    center: location
+                });
+                let marker = new google.maps.Marker({
+                    position: location,
+                    map: map
+                });
+            }
+            </script>
+        
+        <script async defer src ="<%=api%>"></script>
+    
+    </div>
+
+</body>
+</html>
+

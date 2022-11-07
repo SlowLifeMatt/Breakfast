@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./partials/head.ejs') %>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+
+<body>
+    <div>
+        <header class="brand">Welcome to West Coast Best Coast Bed & Breakfast Search</header>
+        <h1>Edit this place of stay in our directory!</h1>
+        <form action="/bed" method="POST">
+            <h2>Location:</h2> <input type="text" name="location" value="<%=Bed.location%>"/><br />
+            <h2>Name:</h2> <input type="text" name="name" value="<%=Bed.name%>"/><br />
+            <h2>Image Link:</h2> <input type="text" name="img" value="<%=Bed.img%>"/><br />
+            <h2>State:</h2> <input type="text" name="state" value="<%=Bed.state%>"/>
+            <h2>Cost:</h2> <input type="text" name="cost" value="<%=Bed.cost%>"/>
+            <h2>Link to site:</h2> <input type="text" name="link" value="<%=Bed.link%>"/><br />
+            <h2>About:</h2> <input type="text" name="about" value="<%=Bed.about%>"/><br />
+            <h2><input type="submit" name="" value="Add a New B&B" /></h2>
+        </form>
+        <button><a href="/bed">Back to Homepage</a></button>
+    </div>
+    
+    </div>
+    
+</body>
+</html>
