@@ -1,6 +1,6 @@
 .home{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border: 3px solid rgb(249, 253, 1);
     border-radius: 1em;
 }
@@ -33,5 +33,28 @@ body {
 .about {
     font-size: 20px;
     padding: 0px 200px 0px 200px;
+}
+li {
+    display: inline-block;
+}
+h2 {
+    font-size: 40px;
+    padding: 10px;
+
+    margin-top: 10px;
+    
+}
+#edit {
+
+    background-color: rgb(129, 126, 126);
+    border-radius: 1em;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.indexHome {
+    width: 500px;
+    height: auto;
 }
 
