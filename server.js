@@ -7,7 +7,7 @@ const bedController = require("./controllers/beds")
 
 // Pulls environment vars into server js from .env
 require('dotenv').config()
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
