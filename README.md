@@ -18,7 +18,8 @@ Trello Board
 ![](public/css/img/Screen%20Shot%202022-11-07%20at%205.05.13%20PM%20(3).png)
 Link to the Trello Board
 https://trello.com/b/zNxrsBnC/bed-and-breakfast-project
-
+Final wireframe
+![](public/css/img/Screen%20Shot%202022-11-08%20at%204.01.53%20PM%20(3).png)
 App Screenshots 
 Home Page
 ![](public/css/img/Screen%20Shot%202022-11-07%20at%205.24.05%20PM%20(3).png)
