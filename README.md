@@ -8,7 +8,7 @@
 
 **Getting started**
 -----
-Have a list of places on the West Coast that is a bed and breakfast style place to stay. To be able to
+Have a list of places on the West Coast that is a bed and breakfast style place to stay. To be able to search and research. Link to book a choice and see more info.
 
 *Technologies Used*
 Javascript, EJS, CSS, MongoDatabase, GoogleMapsAPI

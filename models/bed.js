@@ -2,15 +2,15 @@ const mongoose = require('mongoose')
 
 // This is the Bed and Breakfast Schema
 const bedSchema = new mongoose.Schema({
-    location: {type: String, required: true},
-    name: {type: String, required: true},
-    img: {type: String, required: true},
-    cost: {type: String, required: true},
-    state: {type: String, required: true},
-    link: {type: String, require: true},
-    lat: {type: Number, require: true},
-    lng: {type: Number, require: true},
-    about: {type: String, require: true}
+    location: {type: String, required: false},
+    name: {type: String, required: false},
+    img: {type: String, required: false},
+    cost: {type: String, required: false},
+    state: {type: String, required: false},
+    link: {type: String, required: false},
+    lat: {type: Number, required: false},
+    lng: {type: Number, required: false},
+    about: {type: String, required: false}
 })
 
 const Bed = mongoose.model("Bed", bedSchema)

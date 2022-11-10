@@ -25,8 +25,9 @@ db.on("disconnected", () => console.log("mongo disconnected"))
 app.use(express.urlencoded({extended:true}))
 
 // Use the beds controller for the bed routes
-app.use("/bed", bedController)
 app.use(methodOverride("_method"))
+app.use("/bed", bedController)
+
 app.use(express.static("public"));
 // Listener
 
