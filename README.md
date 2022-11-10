@@ -35,3 +35,6 @@ Show Page
 Map API
 ![](public/css/img/Screen%20Shot%202022-11-07%20at%205.24.05%20PM%20(3).png)
 
+* Stuck on making your Map API to work? Coordinates wrong? Check out this link! *
+**Remember you need to include the decimals in your latitude and longitude**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
