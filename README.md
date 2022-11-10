@@ -1,6 +1,6 @@
 **West Coast Best Coast Bed and Breakfast Search**
 *HOSTED SITE*
-|| https://slowlifematt-breakfast.herokuapp.com/bed||
+ https://slowlifematt-breakfast.herokuapp.com/bed 
 
 ------------------------
 
