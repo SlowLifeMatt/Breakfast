@@ -48,8 +48,11 @@ h2 {
     background-color: rgb(129, 126, 126);
     border-radius: 1em;
     margin-top: 10px;
-    display: inline-block;
+    display: flex;
+    align-content: center;
+    align-items: center;
     text-align: center;
+    
     
 }
 .indexHome {
