@@ -1,11 +1,14 @@
 **West Coast Best Coast Bed and Breakfast Search**
+----
 *HOSTED SITE*
+----
  https://slowlifematt-breakfast.herokuapp.com/bed 
 
 ------------------------
 
-**Items wanted on app**
-Have a list of places on the West Coast that is a bed and breakfast style place to stay.
+**Getting started**
+-----
+Have a list of places on the West Coast that is a bed and breakfast style place to stay. To be able to
 
 *Technologies Used*
 Javascript, EJS, CSS, MongoDatabase, GoogleMapsAPI
@@ -33,8 +36,15 @@ Home Page
 Show Page
 ![](public/css/img/Screen%20Shot%202022-11-07%20at%205.17.42%20PM%20(3).png)
 Map API
-![](public/css/img/Screen%20Shot%202022-11-07%20at%205.24.05%20PM%20(3).png)
+![](public/css/img/Screen%20Shot%202022-11-07%20at%205.17.35%20PM%20(3).png)
 
+----
 * Stuck on making your Map API to work? Coordinates wrong? Check out this link! *
+----
 **Remember you need to include the decimals in your latitude and longitude**
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+
+**Future Ideas**
+-Being able to add near by Breweries.
+-Adding search function by State.
+-Authentication to save favorite places.
